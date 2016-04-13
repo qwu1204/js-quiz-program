@@ -3,9 +3,6 @@ var correct = 0;
 
 // prompt
 var answer1 = prompt("What is the name of the latest iPhone");
-
-//console.log(answer1);
-// if statement
 if ( answer1.toUpperCase() === 'SE' ) {
  correct += 1;
 }
@@ -17,10 +14,7 @@ if ( answer2.toUpperCase() === 'JAVASCRIPT' ) {
 }
 
 var answer3 = prompt("Is Javascript and Java related at all? Answer yes or no");
-
-//console.log(answer1);
-// if statement
-if ( answer3.toUpperCase() === 'no' ) {
+if ( answer3.toUpperCase() === 'NO' ) {
  correct += 1;
 }
 
