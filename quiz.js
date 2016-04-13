@@ -18,8 +18,16 @@ if ( answer3.toUpperCase() === 'NO' ) {
  correct += 1;
 }
 
+var answer4 = prompt("Is jQuery easier to write than traditional Javascript? Answer yes or no");
+if ( answer4.toUpperCase() === 'YES' ) {
+ correct += 1;
+}
 
+var answer5 = prompt("How to reference an element by id in JQuery?(Put the symbol");
+if ( answer5.toUpperCase() === '#' ) {
+ correct += 1;
+}
 
 //console.log("correct : "+ correct);
 // output results
-document.write("<p>You got " + correct + " out of 3 right.</p>");
+document.write("<p>You got " + correct + " out of 5 right.</p>");
