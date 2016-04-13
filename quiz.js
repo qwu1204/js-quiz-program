@@ -10,19 +10,9 @@ if ( answer1.toUpperCase() === 'SE' ) {
  correct += 1;
 }
 
-var answer2 = prompt("What is the name of the latest iPhone");
 
-//console.log(answer1);
-// if statement
-if ( answer2.toUpperCase() === 'SE' ) {
- correct += 1;
-}
-
-var answer3 = prompt("What is this script written in");
-
-//console.log(answer1);
-// if statement
-if ( answer3.toUpperCase() === 'JAVASCRIPT' ) {
+var answer2 = prompt("What is this script written in");
+if ( answer2.toUpperCase() === 'JAVASCRIPT' ) {
  correct += 1;
 }
 
@@ -38,4 +28,4 @@ if ( answer3.toUpperCase() === 'no' ) {
 
 //console.log("correct : "+ correct);
 // output results
-document.write("<p>You got " + correct + " out of 5 right.</p>");
+document.write("<p>You got " + correct + " out of 3 right.</p>");
