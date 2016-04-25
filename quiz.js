@@ -50,4 +50,4 @@ var quizQA = [
 question();
 //console.log("correct : "+ correct);
 // output results
-document.write("<p>You got " + correct + " out of 5 right.</p>");
+// document.write("<p>You got " + correct + " out of 5 right.</p>");
